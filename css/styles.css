@@ -105,6 +105,7 @@ img {
 .header {
     background: var(--first-basic-color);
     border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -167,7 +168,7 @@ img {
     background-color: var(--active-color);
     border-radius: 2px;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
 }
 
@@ -362,12 +363,12 @@ img {
 .team-list-item {
     background: var(--first-basic-color);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .text-list-img {
     gap: 8px ;
-    padding: 32px 16px;
+    padding: 32px ;
     text-align: center;
 }
 
@@ -413,10 +414,11 @@ img {
     padding-bottom: 120px;
 }
 .customer-title {
+    font-size: 36px;
     text-align: center;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 0.72px;
+    letter-spacing: 1.11px;
     text-transform: capitalize;
     color: var(--second-basic-color);
     margin-bottom: 72px;
@@ -448,6 +450,7 @@ img {
 }
 
 .customer-link {
+    border-radius: 4px;
     border: 1px solid #8E8F99;
     width: 100%;
     height: 100%;
@@ -459,6 +462,7 @@ img {
 .customer-link:hover,
 .customer-link:focus {
     border: 1px solid var(--active-color);
+    color: var(--active-color);
 }
 /**
   |============================
