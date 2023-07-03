@@ -398,14 +398,11 @@ img {
     transition: background-color var(--transition);
 }
 
-<<<<<<< HEAD
 .icon-list-link:hover,
 .icon-list-link:focus {
     background-color: var(--active-color);
 }
 
-=======
->>>>>>> 3481d131984eb7eae273ab77caaaf9e8daa75ad4
 /**
   |============================
   | Customers section
@@ -438,18 +435,11 @@ img {
     justify-content: center;
     width: 168px;
     height: 88px;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 3481d131984eb7eae273ab77caaaf9e8daa75ad4
 }
 
 .svg-icon-customer {
     fill: #8E8F99;
-<<<<<<< HEAD
     transition: color var(--transition);
-=======
->>>>>>> 3481d131984eb7eae273ab77caaaf9e8daa75ad4
 }
 
 .svg-icon-customer:hover,
@@ -464,10 +454,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     transition: border-color var(--transition);
-=======
->>>>>>> 3481d131984eb7eae273ab77caaaf9e8daa75ad4
 }
 .customer-link:hover,
 .customer-link:focus {
@@ -654,7 +641,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     transition: background-color var(--transition);
 }
 .footer-list-link:hover,
@@ -716,12 +702,9 @@ img {
 }
 
 .modal-icon {
-    
-    
-=======
+
 }
 .footer-list-link:hover,
 .footer-list-link:focus {
     background-color: #31D0AA;
->>>>>>> 3481d131984eb7eae273ab77caaaf9e8daa75ad4
 }
