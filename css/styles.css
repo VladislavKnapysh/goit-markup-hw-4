@@ -363,12 +363,12 @@ img {
 .team-list-item {
     background: var(--first-basic-color);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .text-list-img {
     gap: 8px ;
-    padding: 32px ;
+    padding: 32px 0 ;
     text-align: center;
 }
 
@@ -382,10 +382,14 @@ img {
     display: flex;
     gap: 24px;
     margin-top: 8px;
+    justify-content: center;
 }
 
 .icon-list-item {
     
+}
+.link-icon {
+    fill: var(--fourth-basic-color);
 }
 
 .icon-list-link {
@@ -583,11 +587,9 @@ img {
     padding-bottom: 100px;
 }
 
-.text-footer-container {
-    display: flex;
-}
+
 .footer-container {
-    
+    display: flex;
 }
 .footer-logo-container {
     margin-right: 120px;
