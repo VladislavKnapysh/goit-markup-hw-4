@@ -159,6 +159,9 @@ img {
     padding-bottom: 24px;
     transition: color var(--transition);
 }
+.active {
+    color: #404bbf;
+}
 
 .header-nav-link.active::after {
     content: "";
