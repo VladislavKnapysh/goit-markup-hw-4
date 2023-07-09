@@ -699,6 +699,7 @@ img {
     margin-right: 24px;
     background-color: var(--second-basic-color);
     outline: transparent; 
+    padding-left: 16px;
 }
 
 /**
@@ -835,6 +836,7 @@ img {
     border-radius: 4px;
     border: 1px solid var(--second-basic-color);
     outline: transparent;
+    resize: none;
 }
 .modal-form-textarea:focus {
     border: 1px solid var(--butn-logo-color);
