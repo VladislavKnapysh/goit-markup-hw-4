@@ -699,7 +699,16 @@ img {
     margin-right: 24px;
     background-color: var(--second-basic-color);
     outline: transparent; 
-    padding-left: 16px;
+    padding: 8px 16px;
+}
+
+.form-input-footer::placeholder {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    color: var(--first-basic-color);
 }
 
 /**
@@ -795,7 +804,7 @@ img {
 }
 
 .modal-form-label {
-    margin-bottom: 4px;
+    padding-bottom: 4px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -811,10 +820,9 @@ img {
     width: 100%;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid var(--second-basic-color);
+    border: 1px solid rgba(46, 47, 66, 0.40);
     outline: transparent;  
     font-size: 18px;
-    
 }
 
 .modal-form-icon {
@@ -834,9 +842,18 @@ img {
     width: 100%;
     height: 120px;
     border-radius: 4px;
-    border: 1px solid var(--second-basic-color);
+    border: 1px solid rgba(46, 47, 66, 0.40);
     outline: transparent;
     resize: none;
+    padding: 8px 16px;
+}
+.modal-form-textarea::placeholder {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    color: rgba(46, 47, 66, 0.40);
 }
 .modal-form-textarea:focus {
     border: 1px solid var(--butn-logo-color);
