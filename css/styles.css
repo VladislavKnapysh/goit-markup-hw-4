@@ -671,27 +671,37 @@ img {
     background-color: #31D0AA;
 }
 
+.form {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-btn {
+    display: flex;
+    min-width: 165px;
     display: inline-flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background-color: var(--butn-logo-color);
     color: var(--first-basic-color);
     border: none;
     height: 40px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .footer-btn-icon {
+    margin-left: 16px;
     fill: var(--first-basic-color);
 }
 
 .form-input-footer {
     border-radius: 4px;
     border: 1px solid var(--first-basic-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--first-basic-color);
     width: 264px;
     height: 40px;
@@ -700,6 +710,10 @@ img {
     background-color: transparent;
     outline: transparent; 
     padding: 8px 16px;
+    filter: drop-shadow 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    font-size: 12px;
 }
 
 .form-input-footer::placeholder {
@@ -885,7 +899,7 @@ img {
 }
 
 .modal-form-checkbox {
-
+    
 }
 
 .modal-form-custom-checkbox {
