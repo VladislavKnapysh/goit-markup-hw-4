@@ -794,8 +794,8 @@ img {
     background-color: #31D0AA;
 }
 
-.modal-container {
-    padding: 72px 24px 24px 24px;
+.modal-input-container {
+    margin-bottom: 8px;
 }
 .modal-text {
     margin-bottom: 16px;
@@ -814,7 +814,6 @@ img {
 
 .modal-form-filed {
     display: block;
-    margin-bottom: 16px;
     position: relative;
 }
 
@@ -875,7 +874,7 @@ img {
 }
 
 .modal-send-btn {
-    width: 169px;
+    min-width: 169px;
     display: block;
     padding: 16px 32px;
     border-radius: 4px;
