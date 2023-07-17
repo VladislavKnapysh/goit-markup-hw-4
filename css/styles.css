@@ -905,9 +905,12 @@ img {
 }
 
 .modal-form-agreement { 
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-left: 8px;
     display: flex;
     align-items: center;
-    gap: 8px;
     margin-bottom: 16px;
     width: 100%;
 }
@@ -939,6 +942,7 @@ img {
 }
 
 .modal-label-checkbox-container {
+    margin-bottom: 24px;
     display: flex;
     width: 338px;
     font-size: 12px;

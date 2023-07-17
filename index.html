@@ -460,18 +460,16 @@
                 <textarea class="modal-form-textarea" name="user-comment" id="user-comment"  placeholder="Text input"></textarea>
           </div>
           <div class="modal-label-checkbox-container"> 
-            <label class="modal-form-agreement">
-
-              <div class="modal-input-custom-chbx">
-                <input class="modal-form-checkbox visually-hidden" type="checkbox" />
-                <span class="modal-form-custom-checkbox">
-                  <svg class="modal-form-checkbox-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-vector-icon"></use>
-                  </svg>
-              </div>
-              </span>
-              <span class="modal-form-text">I accept the terms and conditions of the<a class="modal-form-link" href="">Privacy Policy</a></span>
-            </label>
+            <input class="modal-form-checkbox visually-hidden" name="user-privacy" type="checkbox" id="user-privacy" value="true" />
+            <span class="modal-form-custom-checkbox">
+              <svg class="modal-form-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-vector-icon"></use>
+              </svg>
+            </span> 
+              <label class="modal-form-agreement"  for="user-privacy">
+                <span>I accept the terms and conditions of the</span><a class="modal-form-link" href="">Privacy Policy</a>
+              </label>
+            
           </div>
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
