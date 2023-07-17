@@ -842,6 +842,8 @@ img {
 }
 
 .modal-form-icon {
+    top: 50%; 
+    transform: translateY(-50%);
     position: absolute;
     bottom: 8px;
     left: 16px;
