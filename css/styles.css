@@ -823,6 +823,11 @@ img {
     margin-bottom: 4px;
 }
 
+.modal-input-container {
+    display: block;
+    position: relative;
+}
+
 .modal-form-input {
     padding: 11px 38px;
     display: block;
@@ -902,6 +907,7 @@ img {
     align-items: center;
     gap: 8px;
     margin-bottom: 16px;
+    width: 100%;
 }
 
 .modal-form-checkbox {
@@ -930,7 +936,8 @@ img {
     opacity: 1;
 }
 
-.modal-form-text {
+.modal-label-checkbox-container {
+    display: flex;
     width: 338px;
     font-size: 12px;
     font-style: normal;
