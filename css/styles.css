@@ -797,6 +797,9 @@ img {
 .modal-label-container {
     margin-bottom: 8px;
 }
+.modal-label-textarea-container {
+    margin-bottom: 16px;
+}
 
 .modal-text {
     margin-bottom: 16px;
@@ -908,11 +911,13 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-left: 8px;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
     width: 100%;
+}
+.modal-agreement-text {
+    margin-left: 8px;
 }
 
 .modal-form-checkbox {
@@ -928,7 +933,7 @@ img {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+.modal-form-checkbox:checked + .modal-form-agreement {
     border-color: var(--active-color);
     background-color: var(--active-color);
 }
