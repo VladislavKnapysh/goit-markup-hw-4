@@ -911,12 +911,11 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
-    margin-bottom: 16px;
     width: 100%;
     color: #8E8F99;
 }
+
 .modal-agreement-text {
     margin-left: 8px;
 }
@@ -938,13 +937,13 @@ img {
     fill: transparent; 
 }
 .modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox  {
-    border-color: var(--active-color);
+    background-color: var(--active-color);
     border: none;
-    fill: var(--first-basic-color);
+    fill: var(--fourth-basic-color);
 }
 
 .modal-form-checkbox-icon {
-    fill: var(--fourth-basic-color;
+    
 }
 
 
